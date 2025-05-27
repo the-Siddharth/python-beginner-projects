@@ -1,13 +1,13 @@
-def is_palindrome(num):
-    if num == num[::-1]:
+def is_palindrome(num_string):
+    if num_string == num_string[::-1]:
         return True
     else:
         return False
 
-print("Enter a Number to check Palindrome: ")
+print("Enter a Number or a String to check Palindrome: ")
 num = input()
 
-if is_palindrome(num):
-    print(str(num) + " is Palindrome")
+if is_palindrome(num_string):
+    print(str(num_string) + " is Palindrome")
 else:
-    print(str(num) + " is Not Palindrome")
+    print(str(num_string) + " is Not Palindrome")
