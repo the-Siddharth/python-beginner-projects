@@ -5,7 +5,7 @@ def is_palindrome(num_string):
         return False
 
 print("Enter a Number or a String to check Palindrome: ")
-num = input()
+num_string = input()
 
 if is_palindrome(num_string):
     print(str(num_string) + " is Palindrome")
